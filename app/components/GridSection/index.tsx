@@ -7,7 +7,6 @@ import {
     Icon,
     Stack,
     Text,
-    useColorModeValue,
   } from '@chakra-ui/react';
   import { ReactElement } from 'react';
   import {
@@ -42,7 +41,7 @@ import {
             justify={'center'}
             color={'white'}
             rounded={'full'}
-            bg={useColorModeValue('gray.100', 'gray.700')}>
+            bg={'gray.100'}>
             {icon}
           </Flex>
           <Box mt={2}>

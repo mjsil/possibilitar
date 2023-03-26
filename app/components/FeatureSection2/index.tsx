@@ -8,7 +8,6 @@ import {
     Stack,
     StackDivider,
     Icon,
-    useColorModeValue,
     Box,
   } from '@chakra-ui/react';
   import {
@@ -61,19 +60,19 @@ import {
                   icon={
                     <Icon as={IoAnalyticsSharp} color={'yellow.500'} w={5} h={5} />
                   }
-                  iconBg={useColorModeValue('yellow.100', 'yellow.900')}
+                  iconBg={'yellow.100'}
                   text={'Business Planning'}
                 />
                 <Feature
                   icon={<Icon as={IoLogoBitcoin} color={'green.500'} w={5} h={5} />}
-                  iconBg={useColorModeValue('green.100', 'green.900')}
+                  iconBg={'green.100'}
                   text={'Financial Planning'}
                 />
                 <Feature
                   icon={
                     <Icon as={IoSearchSharp} color={'purple.500'} w={5} h={5} />
                   }
-                  iconBg={useColorModeValue('purple.100', 'purple.900')}
+                  iconBg={'purple.100'}
                   text={'Market Analysis'}
                 />
               </Stack>

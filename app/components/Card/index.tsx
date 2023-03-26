@@ -5,7 +5,6 @@ import {
   Text,
   Stack,
   Avatar,
-  useColorModeValue,
   Container,
   Flex,
   Button
@@ -25,33 +24,33 @@ export default function blogPostWithImage() {
           <Box
             maxW={'280px'}
             w={'full'}
-            bg={useColorModeValue('white', 'gray.900')}
+            bg={'white'}
             boxShadow={'md'}
             rounded={'md'}
             p={6}
             overflow={'hidden'}>
-            <Box
+            <Center
               h={'150px'}
               bg={'gray.100'}
               mt={-6}
               mx={-6}
               mb={6}
               pos={'relative'}
-              align={'center'}>
+              >
               <Avatar
                 size={'2xl'}
                 src={
                   'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Webysther_20160322_-_Logo_UnB_%28sem_texto%29.svg/640px-Webysther_20160322_-_Logo_UnB_%28sem_texto%29.svg.png'
                 }
-                alt={'Author'}
+                
                 css={{
                   border: '2px solid white',
                 }}
               />
-            </Box>
+            </Center>
             <Stack>
               <Heading
-                color={useColorModeValue('gray.700', 'white')}
+                color={'gray.700'}
                 fontSize={'2xl'}
                 fontFamily={'body'}>
                 Ciência da Computação
@@ -74,33 +73,33 @@ export default function blogPostWithImage() {
           <Box
             maxW={'280px'}
             w={'full'}
-            bg={useColorModeValue('white', 'gray.900')}
+            bg={'white'}
             boxShadow={'md'}
             rounded={'md'}
             p={6}
             overflow={'hidden'}>
-            <Box
+            <Center
               h={'150px'}
               bg={'gray.100'}
               mt={-6}
               mx={-6}
               mb={6}
               pos={'relative'}
-              align={'center'}>
+              >
               <Avatar
                 size={'2xl'}
                 src={
                   'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Webysther_20160322_-_Logo_UnB_%28sem_texto%29.svg/640px-Webysther_20160322_-_Logo_UnB_%28sem_texto%29.svg.png'
                 }
-                alt={'Author'}
+                
                 css={{
                   border: '2px solid white',
                 }}
               />
-            </Box>
+            </Center>
             <Stack>
               <Heading
-                color={useColorModeValue('gray.700', 'white')}
+                color={'gray.700'}
                 fontSize={'2xl'}
                 fontFamily={'body'}>
                 Ciência da Computação
@@ -122,33 +121,33 @@ export default function blogPostWithImage() {
           <Box
             maxW={'280px'}
             w={'full'}
-            bg={useColorModeValue('white', 'gray.900')}
+            bg={'white'}
             boxShadow={'md'}
             rounded={'md'}
             p={6}
             overflow={'hidden'}>
-            <Box
+            <Center
               h={'150px'}
               bg={'gray.100'}
               mt={-6}
               mx={-6}
               mb={6}
               pos={'relative'}
-              align={'center'}>
+              >
               <Avatar
                 size={'2xl'}
                 src={
                   'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Webysther_20160322_-_Logo_UnB_%28sem_texto%29.svg/640px-Webysther_20160322_-_Logo_UnB_%28sem_texto%29.svg.png'
                 }
-                alt={'Author'}
+                
                 css={{
                   border: '2px solid white',
                 }}
               />
-            </Box>
+            </Center>
             <Stack>
               <Heading
-                color={useColorModeValue('gray.700', 'white')}
+                color={'gray.700'}
                 fontSize={'2xl'}
                 fontFamily={'body'}>
                 Ciência da Computação
@@ -170,33 +169,33 @@ export default function blogPostWithImage() {
           <Box
             maxW={'280px'}
             w={'full'}
-            bg={useColorModeValue('white', 'gray.900')}
+            bg={'white'}
             boxShadow={'md'}
             rounded={'md'}
             p={6}
             overflow={'hidden'}>
-            <Box
+            <Center
               h={'150px'}
               bg={'gray.100'}
               mt={-6}
               mx={-6}
               mb={6}
               pos={'relative'}
-              align={'center'}>
+              >
               <Avatar
                 size={'2xl'}
                 src={
                   'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Webysther_20160322_-_Logo_UnB_%28sem_texto%29.svg/640px-Webysther_20160322_-_Logo_UnB_%28sem_texto%29.svg.png'
                 }
-                alt={'Author'}
+                
                 css={{
                   border: '2px solid white',
                 }}
               />
-            </Box>
+            </Center>
             <Stack>
               <Heading
-                color={useColorModeValue('gray.700', 'white')}
+                color={'gray.700'}
                 fontSize={'2xl'}
                 fontFamily={'body'}>
                 Ciência da Computação
